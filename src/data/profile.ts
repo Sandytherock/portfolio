@@ -54,7 +54,7 @@ export interface Interest {
 
 export const profile: Profile = {
   name: "Soumya Jain",
-  title: "Software Engineer",
+  title: "Full-Stack Software Developer",
   email: "somyajain2208@gmail.com",
   phone: "+91 9511335264",
   linkedin: "https://www.linkedin.com/in/soumya-jain-dev/",
