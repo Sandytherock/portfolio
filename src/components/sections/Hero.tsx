@@ -24,20 +24,20 @@ export const Hero: React.FC = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center pt-20 pb-16">
+    <section id="home" className="min-h-screen flex items-center pt-24 sm:pt-20 pb-16">
       <Container>
         <div className="text-center max-w-4xl mx-auto">
           {/* Name & Title */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 dark:text-slate-100 mb-4">
             {profile.name}
           </h1>
           
-          <p className="text-2xl md:text-3xl text-primary-600 dark:text-primary-400 font-semibold mb-6">
+          <p className="text-xl sm:text-2xl md:text-3xl text-primary-600 dark:text-primary-400 font-semibold mb-6">
             {profile.title}
           </p>
 
           {/* Tagline */}
-          <p className="text-lg md:text-xl text-slate-700 dark:text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-slate-700 dark:text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed px-4">
             {profile.tagline}
           </p>
 
